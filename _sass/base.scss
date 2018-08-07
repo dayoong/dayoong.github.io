@@ -1,0 +1,26 @@
+/**
+ * Base
+ */
+body {
+  color: $oc-gray-8;
+}
+
+a {
+  color: #002cb3d9;
+  &:hover {    
+    color: #002cb3d9;
+  }
+}
+
+
+/**
+ * Extends
+ */
+%hover-gray {
+  & {
+    color: $oc-gray-7;
+    &:hover {
+      color: $oc-gray-8;
+    }
+  }
+}
